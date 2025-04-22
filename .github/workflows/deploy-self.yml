@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  repository_dispatch:
+  workflow_dispatch:
   
 env:
   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
